@@ -1,0 +1,10 @@
+C:\Users\rapha\repos\AzureHostSignalR\bin\Debug\netcoreapp2.0\AzureHost.deps.json
+C:\Users\rapha\repos\AzureHostSignalR\bin\Debug\netcoreapp2.0\AzureHost.runtimeconfig.json
+C:\Users\rapha\repos\AzureHostSignalR\bin\Debug\netcoreapp2.0\AzureHost.runtimeconfig.dev.json
+C:\Users\rapha\repos\AzureHostSignalR\bin\Debug\netcoreapp2.0\AzureHost.dll
+C:\Users\rapha\repos\AzureHostSignalR\bin\Debug\netcoreapp2.0\AzureHost.pdb
+C:\Users\rapha\repos\AzureHostSignalR\obj\Debug\netcoreapp2.0\AzureHost.csproj.CoreCompileInputs.cache
+C:\Users\rapha\repos\AzureHostSignalR\obj\Debug\netcoreapp2.0\AzureHost.AssemblyInfoInputs.cache
+C:\Users\rapha\repos\AzureHostSignalR\obj\Debug\netcoreapp2.0\AzureHost.AssemblyInfo.cs
+C:\Users\rapha\repos\AzureHostSignalR\obj\Debug\netcoreapp2.0\AzureHost.dll
+C:\Users\rapha\repos\AzureHostSignalR\obj\Debug\netcoreapp2.0\AzureHost.pdb
