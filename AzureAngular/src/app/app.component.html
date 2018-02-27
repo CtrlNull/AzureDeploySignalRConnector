@@ -40,23 +40,21 @@
       <!-- Send Commands -->
       <div class="col-md-3">
         <h4>Send Commands</h4>
+        <!-- Drop down -->
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Set Required Weight</a>
-            <a class="dropdown-item" href="#">Send Ingredient</a>
-            <a class="dropdown-item" href="#">Reset Tare</a>
-          </div>
-        </div>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Command
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Select Ingredient</a></li>
+            <li><a href="#">Reset Tare</a></li>
+          </ul>
+        </div> 
       </div>
       <!-- SignalR output -->
       <div class="col-md-3">
         <h4>Scale Weight</h4>
-        <div class="container" *ngIf="messages.length > 0">
-          <div *ngFor="let message of messages">
+        <div class="container" *ngIf="scalemessages.length > 0">
+          <div *ngFor="let scalemessage of scalemessages">
             <span>{{scaleMessage}}</span>
         </div>
       </div>

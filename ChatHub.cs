@@ -8,9 +8,9 @@ namespace AzureHost
         {
             Clients.All.InvokeAsync("sendToAll",name, message);
         }
-        public void SendMessage(string message)
-        {
-            Clients.All.InvokeAsync(message);
-        }
+        // public void SendMessage(string message)
+        // {
+        //     Clients.All.InvokeAsync("sendMessage", message);
+        // }
     }
 }
