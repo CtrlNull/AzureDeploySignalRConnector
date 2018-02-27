@@ -12981,11 +12981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rapha\\repos\\AzureHostSignalR\\AzureHost.csproj",
+      "projectUniqueName": "C:\\Users\\rapha\\repos\\Deployable\\AzureHostSignalR\\AzureHost.csproj",
       "projectName": "AzureHost",
-      "projectPath": "C:\\Users\\rapha\\repos\\AzureHostSignalR\\AzureHost.csproj",
+      "projectPath": "C:\\Users\\rapha\\repos\\Deployable\\AzureHostSignalR\\AzureHost.csproj",
       "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\repos\\AzureHostSignalR\\obj\\",
+      "outputPath": "C:\\Users\\rapha\\repos\\Deployable\\AzureHostSignalR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

@@ -1,7 +1,7 @@
 <div id="main-container" style="text-align:center">
   <h1>
     <a href="https://codingblast.com/asp-net-core-signalr-simple-chat/" target="_new">
-      ASP.NET Core SignalR Chat with Angular
+      ASP.NET Core 2.0, SignalR, & Angular
     </a>
   </h1>
 
@@ -17,38 +17,47 @@
       </button>
     </form>
   </div>
-
-  <div class="container" *ngIf="messages.length > 0">
-    <div *ngFor="let message of messages">
-      <span>{{message}}</span>
-    </div>
-  </div>
-
+<!-- Scale Page Start -->
   <div>
     <h3>SignalR Scale Connector</h3>
-    <div class="container">
-      <div>
+    <div class="row">
+      <!-- Connect button -->
+      <div class="col-md-3">
         <h4>Connect?</h4>
         <button type="button" class="btn btn-danger">Connect</button>
       </div>
-      <div>
+      <!-- Scale Button -->
+      <div class="col-md-3">
         <h4>Scale Data</h4>
         <button type="button" class="btn btn-primary">Receive</button>
       </div>
-      <div>
+      <!-- Send Commands -->
+      <div class="col-md-3">
         <h4>Send Commands</h4>
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Set Required Weight</a>
-              <a class="dropdown-item" href="#">Send Ingredient</a>
-              <a class="dropdown-item" href="#">Reset Tare</a>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Dropdown button
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Set Required Weight</a>
+            <a class="dropdown-item" href="#">Send Ingredient</a>
+            <a class="dropdown-item" href="#">Reset Tare</a>
+          </div>
+        </div>
+      </div>
+      <!-- SignalR output -->
+      <div class="col-md-3">
+        <h4>Scale Weight</h4>
+        <div class="container" *ngIf="messages.length > 0">
+            <div *ngFor="let message of messages">
+              <span>{{message}}</span>
             </div>
           </div>
+        
       </div>
+
     </div>
   </div>
-  
+
 </div>
